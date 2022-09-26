@@ -26,7 +26,7 @@ route.post("/:id", async (req, res) => {
         let result = BioUser.create(inputUser)
 
         if (result) {
-            res.redirect(`homepage/${id}`)
+            res.redirect(`/homepage/${id}`)
         }
     } catch (error) {
         console.log(error);
