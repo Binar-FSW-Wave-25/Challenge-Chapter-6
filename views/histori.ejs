@@ -17,9 +17,8 @@
                   <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
       
-                      <p class="text-center h2 fw-bold mb-5 mt-4">History Game ( user )</p>
-      
-                      <form autocomplete="off" class="mx-1 mx-md-4" method="post" action="/login">
+                      <p class="text-center h2 fw-bold mb-5 mt-4">History Game</p>
+
                         <table class="table">
                           <thead>
                             <tr>
@@ -29,22 +28,18 @@
                               <th scope="col">Result</th>
                             </tr>
                           </thead>
-                          <tbody >
+                          <tbody>
+                            <% for(let i = 0; i < users.length; i++){ %>
                             <tr>
-                              <th scope="row" class="text-center">1</th>
-                              <td>Rock</td>
-                              <td>Rock</td>
-                              <td>Draw</td>
+                              <th scope="row" class="text-center"><%= i+1 %></th>
+                              <td><%= users[i].user %></td>
+                              <td><%= users[i].com %></td>
+                              <td><%= users[i].result %></td>
                             </tr>
-                            <tr>
-                              <th scope="row" class="text-center">2</th>
-                              <td>Scissor</td>
-                              <td>Rock</td>
-                              <td>Com Win</td>
-                            </tr>
+                            <% } %>
                           </tbody>
                         </table>
-                      </form>
+
                     </div>
                 </div>
               </div>

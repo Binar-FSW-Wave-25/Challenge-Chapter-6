@@ -1,4 +1,4 @@
-const { UserGames, UserGameBiodata, UserGamesHistories } = require("../models")
+const { UserGames, UserGameBiodata, UserGameHistories } = require("../models")
 
 module.exports = {
     viewLogin: async (req,res) =>{
@@ -109,7 +109,7 @@ module.exports = {
             }
             res.render("game",{ user: req.session.user })
         } catch (error) {
-            
+            res.send('mending main zeus')
         }
     },
 
@@ -127,7 +127,7 @@ module.exports = {
                 user:user.username
             }) 
         } catch (error) {
-            
+            res.send('ga punta biodata :(')
         }
     },
     viewActionBiodata: async (req,res) =>{
@@ -139,13 +139,12 @@ module.exports = {
         } catch (error) {
             res.send('gagal')
         }
-    },ActionBiodata: async (req,res) =>{
+    },
+    ActionBiodata: async (req,res) =>{
         try {
             const { fullname,age } = req.body
             const id = req.session.user
-            console.log(id.id);
             const users = await UserGameBiodata.findOne({where:{ UserGameId:id.id}})
-            console.log(users.fullname, users.age);
             users.fullname = fullname
             users.age = age
             await users.save()
@@ -161,17 +160,47 @@ module.exports = {
                 return res.redirect('/login')
             }
             let user = req.session.user
-            res.render("histori")
+            console.log(user)
+            const users = await UserGameHistories.findAll({where:{ UserGameId:user.id}})
+            console.log(users);
+            res.render("histori",{ users })
         } catch (error) {
-            
+            res.send('ga punya history :(')
+        }
+    },
+    
+    play: async (req, res) => {
+        try {
+            if (req.session.user == undefined || req.session.user == null){
+                return res.redirect('/login')
+            }
+            const id = req.session.user
+            let { user, com, result } = req.body
+            let data = {
+                user: user,
+                com: com,
+                result: result,
+                UserGameId:id.id
+            }
+            UserGameHistories.create(data)
+        } catch (error) {
+            res.send("apaaa itu lee")
         }
     },
 
     deleteAccount: async (req,res) =>{
         try {
-            res.send("delete account success")
+            if (req.session.user == undefined || req.session.user == null){
+                return res.redirect('/login')
+            }
+            const id = req.session.user
+            UserGameHistories.destroy({where:{UserGameId:id.id}})
+            UserGameBiodata.destroy({where:{UserGameId:id.id}})
+            UserGames.destroy({where:{id:id.id}})
+            req.session.destroy()
+            res.redirect("/login")
         } catch (error) {
             res.send("gagal")
         }
-    },
+    }
 }
