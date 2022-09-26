@@ -1,0 +1,385 @@
+.Section1_1 {
+    background-image: url(./../assets/main-bg.jpg);
+    background-size: 1441.55px;
+    text-align: center;
+    width: 100%;
+    height: 960.14px;
+    left: -1.55px;
+    top: 0px;
+
+    }
+#navbar-header{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+    background: rgba(0, 0, 0, 0.5);
+    }
+    
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    font-family: 'open sans';    
+    }
+    
+.navbar-nav{
+    font-weight: 700;
+    font-family: 'open sans';        
+    }
+    
+#navbar-menu{
+    font-size: 12px;
+    margin-left: 142px;
+    font-family: 'open sans';
+    }
+#navbar-menu.nav-link{
+    margin-left: 200px;
+    display: flex;
+    }
+#nav-quotes{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'open sans';
+}
+.Section1_2 h1 {
+    position: absolute;
+    height: 73.12px;
+    left: 9.22%;
+    right: 10.47%;
+    padding-top: 313px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: white;
+
+}
+
+.Section1_2 h3 {
+    position: absolute;
+    padding-top: 430px;
+    padding-left: 33%;
+
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: white;
+}
+
+.Section1_3 .btn-primary {
+
+    position: absolute;
+    left: 35.83%;
+    right: 41.09%;
+    top: 42.07%;
+    bottom: 51.68%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px; 
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: black;
+
+    }
+
+.Section1_4  {
+    position: absolute;
+    left: 43.66%;
+    right: 48.61%;
+    top: 72.03%;
+    bottom: 6.4%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.Section1_3 img {
+    position: absolute;
+    width: 20.25px;
+    height: 8.17px;
+    left: 708.32px;
+    top: 898.53px;
+
+    border: 2px solid #FFFFFF;
+}
+
+
+.Section2 {
+    background-image: url(../assets/the-games-bg.jpg);
+   
+    width: 100%;
+    height: 1052.33px;
+    left: -1.55px;
+
+}
+
+.Section3 {
+    background-image: url(../assets/features.jpg);
+  
+    width: 100%;
+    height: 870.26px;
+    left: 0.38px;
+
+}
+
+.Section3w h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height */
+    letter-spacing: 2px;
+
+}
+
+.Section4 {
+    background-image: url(../assets/requirements.png);
+    width: 100%;
+    height: 960.16px;
+    left: -1.55px;
+    top: -0.17px;
+}
+
+.Section5 {
+    background-image: url(../assets/top-score-bg.png);
+    width: 100%;
+    height: 960.16px;
+    left: -1.58px;
+    top: -0.43px;
+}
+
+.Section5 .btn-primary {
+    
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.Section6 {
+    background-image: url(../assets/newsletter.png);
+    width: 100%;
+    height: 959.87px;
+    left: 0px;
+    top: 4800.13px;
+
+    background: #080A0B;
+}
+
+.site-footer
+{
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.facebook {
+    background-image: url(../assets/facebook.png);
+}
+
+.youtube {
+    background-image: url(../assets/Vector.png);
+}
+
+.twitter {
+    background-image: url(../assets/twitter-card.png);
+}
+
+.twich {
+    background-image: url(../assets/twitch.png);
+}
+
+.btn-outline-success { 
+    border-color: black;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}

@@ -9,3 +9,9 @@
 - [ ] Menyediakan endpoint dengan tipe data JSON dari data statis
 - [ ] Membuat dan melakukan import export module
 - [ ] Push ke git untuk di-review
+
+sequelize model:generate --name userData --attributes username:string,password:string,role:string
+
+sequelize model:generate --name biodataUser --attributes fullname:string,gender:string,birthdate:dateonly,address:string,age:integer,phone:string
+
+sequelize model:generate --name historyUser --attributes win:integer,lose:integer,draw:integer

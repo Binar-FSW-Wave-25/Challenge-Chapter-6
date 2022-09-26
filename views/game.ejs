@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissors Paper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/game.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="/game">
+        <header>
+            <h1 style="position: absolute;
+        width: 55px;
+        height: 87px;
+        left: 37px;
+        top: 12px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 98px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #724C21;"> < </h1>
+        <div class="logo"><img src="../assets/logo 1.png" alt=img></div>
+        <div class="title">ROCK PAPER SCISSORS</div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- gambar player -->
+                <h2 class="player1">PLAYER 1</h2>
+                <div id="playerBatu" role="button" class="row"><img id="playeBatu" src="../assets/batu 1.png" style="position: absolute;
+                    width: 128px;
+                    height: 92px;
+                    left: 382px;
+                    top: 267px;">
+                    </div>
+                <div id="playerKertas" role="button" class="row"><img id="playeKertas" src="../assets/kertas 1.png" style="position: absolute;
+                    width: 115px;
+                    height: 150px;
+                    left: 388px;
+                    top: 440px;">
+                    </div>
+                    <div id="playerGunting" role="button" class="row"><img id="playeGunting" src="../assets/gunting 1.png" style="position: absolute;
+                    width: 134px;
+                    height: 160px;
+                    left: 369px;
+                    top: 671px;">
+                    </div>
+                    
+                </div>
+                
+                <!-- vs -->
+                <div class="col" class="result">
+                    <h3 id="keterangan">VS</h3>
+                    
+            </div>
+            
+            <!-- gambar komputer -->
+            <div class="col">
+                <h2 class="com">COM</h2>
+                <div class="row" id="comBatu" ><img src="../assets/batu 1.png" style="position: absolute;
+                    width: 128px;
+                    height: 92px;
+                    left: 951px;
+                    top: 267px;">
+                    </div>
+                    <div class="row" id="comKertas" ><img src="../assets/kertas 1.png" style="position: absolute;
+                    width: 115px;
+                    height: 150px;
+                    left: 970px;
+                    top: 440px;">
+                    </div>
+                    <div class="row" id="comGunting" ><img src="../assets/gunting 1.png" style="position: absolute;
+                    width: 134px;
+                    height: 160px;
+                    left: 951px;
+                    top: 671px;">
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <button type="button" class="refresh-icon">
+                            <img src="../assets/refresh 2.png" alt="refresh" id="refresh"/>
+                        </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>  
+        </div>
+    </form>
+    </div>
+        <script>
+            const playerBatu = document.getElementById("playerBatu")
+            const playerGunting = document.getElementById("playerGunting")
+        const playerKertas = document.getElementById("playerKertas")
+        const memilih = document.getElementsByClassName("hasilSuit")
+        const keterangan = document.getElementById("keterangan")
+        const batuComputer = document.getElementById("comBatu")
+        const kertasComputer = document.getElementById("comKertas")
+        const guntingComputer = document.getElementById("comGunting")
+        const refresh = document.getElementById("refresh")
+
+
+        // jika player memencet batu
+        const element1 = document.getElementById("playerBatu");
+        element1.addEventListener("click", myFunction1);
+        function myFunction1() {
+            let player = "playerBatu" 
+            console.log(player)
+            let choice = ["comBatu", "comGunting", "comKertas"]
+            let bot = choice[Math.floor(Math.random() * choice.length)]
+            console.log(bot)
+            if (bot === "comBatu") {
+                keterangan.innerHTML = "DRAW"
+                console.log("DRAW")
+                console.log(memilih);
+                kertasComputer.style.display = "none"
+                guntingComputer.style.display = "none"
+
+            } else if (bot === "comKertas"){
+                keterangan.innerHTML = "YOU LOSE!"
+                console.log("YOU LOSE!")
+                guntingComputer.style.display = "none"
+                batuComputer.style.display = "none"
+
+            }else{
+                keterangan.innerHTML = "YOU WIN!"
+                console.log("YOU WIN!")
+                kertasComputer.style.display = "none"
+                batuComputer.style.display = "none"
+            }
+        }
+
+        // jika player memencet kertas
+        const element2 = document.getElementById("playerKertas");
+        element2.addEventListener("click", myFunction2);
+        function myFunction2() {
+            let player = "playerKertas"
+            console.log(player);
+
+            let choice = ["comBatu", "comGunting", "comKertas"]
+            let bot = choice[Math.floor(Math.random() * choice.length)]
+            console.log(bot);
+
+            if(bot === "comBatu") {
+                keterangan.innerHTML = "YOU WIN!"
+                guntingComputer.style.display = "none"
+                kertasComputer.style.dislay = "none"
+                console.log("YOU WIN!");        
+
+            }else if(bot === "comKertas") {
+                keterangan.innerHTML = "DRAW"
+                guntingComputer.style.display = "none"
+                batuComputer.style.display = "none"
+                console.log("DRAW");
+            }else {
+                keterangan.innerHTML = "YOU LOSE!"
+                batuComputer.style.display = "none"
+                kertasComputer.style.display = "none"
+                console.log("YOU LOSE!");
+            }
+            
+        }
+
+        // jika player memencet gunting
+        const element3 = document.getElementById("playerGunting");
+        
+        element3.addEventListener("click", myFunction3);
+        function myFunction3() {
+            let player = "playerGunting"
+            console.log(player);
+
+            let choice = ["comBatu", "comGunting", "comKertas"]
+            let bot = choice[Math.floor(Math.random() * choice.length)]
+            console.log(bot);
+
+            if(bot === "comBatu") {
+                keterangan.innerHTML = "YOU LOSE!"
+                guntingComputer.style.display = "none"
+                kertasComputer.style.dislay = "none"
+                console.log("YOU LOSE!");        
+            }else if(bot === "comKertas") {
+                keterangan.innerHTML = "YOU WIN!"
+                console.log("YOU WIN!");
+                guntingComputer.style.display = "none"
+                batuComputer.style.display = "none"
+            }else {
+                keterangan.innerHTML = "DRAW"
+                batuComputer.style.display = "none"
+                kertasComputer.style.display = "none"
+                console.log("DRAW");
+            }
+            
+        }
+
+    const element4 = document.getElementById("refresh")
+    element4.addEventListener("click", myFunction4)
+    function myFunction4() { 
+        window.location.reload(true)
+    }
+        
+
+    </script>
+</body>
+</html>
