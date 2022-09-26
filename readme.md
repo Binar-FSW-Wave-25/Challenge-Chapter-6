@@ -1,10 +1,10 @@
-halaman utama : localhost:3000/
-halaman register : localhost:3000/register
-halaman login : localhost:3000/login
-halaman addbiodata : localhost:3000/addBiodata/:id
-halaman homepage: localhost:3000/homepage/:id
-halaman dashboard : localhost:3000/dashboard/:id
-halaman delete : localhost:3000/dsahboard/delete:id
+- halaman utama : localhost:3000/
+- halaman register : localhost:3000/register
+- halaman login : localhost:3000/login
+- halaman addbiodata : localhost:3000/addBiodata/:id
+- halaman homepage: localhost:3000/homepage/:id
+- halaman dashboard : localhost:3000/dashboard/:id
+- halaman delete : localhost:3000/dsahboard/delete:id
 
 
 Flow web : 
