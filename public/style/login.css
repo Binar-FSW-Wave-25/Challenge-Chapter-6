@@ -1,0 +1,10 @@
+body {
+    background-image: url(../assets/816809.png);
+    background-size: cover;
+}
+
+.h1 {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 575px;
+}

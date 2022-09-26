@@ -1,0 +1,359 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #9C835F;
+    height: 1024px;
+}
+
+/* bagian atas */
+.container-satu {
+    display: flex;
+}
+
+.satu {
+    width: 40px;
+    height: 44px;
+    margin-left: 33px;
+    margin-top: 40px;
+    size: 72px;
+}
+
+.satu {
+    font-family: Open Sans;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    text-align: left;
+
+}
+
+.dua {
+    width: 72px;
+    height: 72px;
+    margin-left: 27px;
+    margin-top: 27px;
+}
+
+.tiga {
+    width: 410px;
+    height: 62px;
+    margin-left: 27px;
+    margin-top: 40px;
+    color: #F9B23D;
+}
+
+.tiga {
+    font-family: Open Sans;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+/* bagaian atas selesai */
+
+/* Profile */
+.LogOut {
+    position: relative;
+    margin-left: 1150px;
+    margin-top: -50px;
+}
+/* Profile Selesai */
+
+/* kertas, gunting, batu */
+.team {
+    display: flex;
+    margin-top: 60px;
+}
+
+.p1 {
+    margin-left: 296px;
+}
+
+.computer {
+    
+    margin-left: 287px;
+}
+
+.batu {
+    display: flex;
+}
+
+.kertas {
+    display: flex;
+}
+
+.versus {
+    margin-left: 26px;
+    margin-top: 80px;
+}
+
+.gunting {
+    display: flex;
+}
+
+
+
+.kiri {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+}
+
+.kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1 {
+    height: 94px;
+    width: 299px;
+    left: 296px;
+    top: 162px;
+    color: #000000;
+    border-radius: nullpx;
+}
+
+.p1 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 49px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.wrapper-batu-satu {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 330px;
+    margin-top: 11px;
+
+}
+
+.batu-satu {
+    position: absolute;
+    height: 92px;
+    width: 128px;
+    left: 45px;
+    top: 55px;
+    border-radius: 0px;
+}
+
+.wrapper-kertas-satu {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 330px;
+    margin-top: 81px;
+}
+
+.kertas-satu {
+    position: absolute;
+    height: 150px;
+    width: 115px;
+    left: 57px;
+    top: 23px;
+    border-radius: 0px;
+}
+
+.wrapper-gunting-satu {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 330px;
+    margin-top: 81px;
+}
+
+.gunting-satu {
+    position: absolute;
+    top: 20px;
+    left: 43px;
+    height: 168px;
+    width: 134px;
+    border-radius: 0px;
+}
+
+.wrapper-batu-dua {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 370px;
+    margin-top: 11px;
+
+}
+
+.batu-dua {
+    position: absolute;
+    height: 92px;
+    width: 128px;
+    left: 45px;
+    top: 55px;
+    border-radius: 0px;
+}
+
+.wrapper-kertas-dua {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 45px;
+    margin-top: 81px;
+}
+
+.kertas-dua {
+    position: absolute;
+    height: 150px;
+    width: 115px;
+    left: 57px;
+    top: 23px;
+    border-radius: 0px;
+}
+
+.wrapper-gunting-dua {
+    position: relative;
+    width: 223px;
+    height: 204px;
+    border-radius: 30px;
+    margin-left: 370px;
+    margin-top: 81px;
+}
+
+.gunting-dua {
+    position: absolute;
+    height: 160px;
+    width: 134px;
+    top: 20px;
+    left: 43px;
+    border-radius: 0px;
+}
+
+.bg-grey {
+    background: #C4C4C4;
+}
+
+.versus {
+    height: 186px;
+    width: 296px;
+    left: 589px;
+    top: 419px;
+    border-radius: nullpx;
+    color: #BD0000;
+}
+
+.versus {
+    font-family: Open Sans;
+    font-size: 144px;
+    font-weight: 700;
+    line-height: 196px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.player-one {
+    height: 186px;
+    width: 277px;
+    margin-left: 45px;
+    margin-top: 74px;
+    background: #4C9654;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.player-one {
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    transform: rotate(-28.87deg);
+}
+
+.com-menang {
+    height: 186px;
+    width: 277px;
+    margin-left: 45px;
+    margin-top: 74px;
+    background: #4C9654;
+    border-radius: 10px;
+    color: #FFFFFF;
+    
+}
+
+.com-menang {
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    transform: rotate(-28.87deg);
+}
+
+.seri {
+    height: 186px;
+    width: 277px;
+    margin-left: 45px;
+    margin-top: 74px;
+    background: #035B0C;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.seri {
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 185px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    transform: rotate(-28.87deg);
+}
+
+.computer {
+    position: relative;
+    height: 94px;
+    width: 299px;
+    left: 35px;
+    top: 0px;
+    color: #000000;
+    border-radius: nullpx;
+}
+
+.computer {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.refresh {
+    display: flex;
+    align-items: center;
+}
+
+.refresh {
+    height: 71px;
+    width: 77px;
+    margin-top: 12px;
+    margin-left: 681px;
+}
+
+.hide {
+    display: none;
+}
+/* kertas, gunting, batu selesai*/
+
+
+

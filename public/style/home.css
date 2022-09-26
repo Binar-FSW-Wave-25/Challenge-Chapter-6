@@ -1,0 +1,903 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1024px;
+}
+
+/* Navbar */
+.brand {
+    margin-left: 0px;
+}
+
+.navbarnav {
+    margin-left: 142px;
+}
+
+.nav-link {
+    margin-left: 32px;
+}
+
+.navbarend {
+    margin-left: 150px;
+}
+/* Navbar End */
+
+/* Main Screen */
+.header {
+    position: absolute;
+    width: 1441px;
+    height: 90px;
+    left: 0px;
+    top: -0.3px;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.main-screen {
+    position: absolute;
+    width: 1441px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background-image: url(../assets/bg\ image\ 1.png);
+    background-size: cover;
+}
+
+.play {
+    margin-top: 224px;
+    font-family: Arial;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.description {
+    margin-top: 57px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.tombol {
+    margin-top: 57px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.tombol {
+    height: 59px;
+    width: 260px;
+    left: 588px;
+    top: 528px;
+    border-radius: 4px;
+    left: 40.83%;
+    right: 41.09%;
+    top: 55.07%;
+    bottom: 38.68%;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.ts {
+    margin-top: 285px;
+}
+
+.down {
+    color: white;
+}
+/* Main Screen Selesai*/
+
+/* About Gallery */
+.about-gallery {
+    position: absolute;
+    height: 1052px;
+    width: 1441px;
+    top: 958px;
+    background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%);
+    background-image: url(../assets/bg\ image\ 2.jpg);
+    background-size: cover;
+}
+
+.h3 {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 254px;
+    margin-left: 83px;
+}
+
+.h1 {
+    font-family: Arial;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 79px;
+}
+
+
+.the-games {
+    display: flex;
+
+}
+
+.rockpaperstrategy {
+    height: 477px;
+    width: 858px;
+    left: 454px;
+    top: 318.70001220703125px;
+    border-radius: 0px;
+}
+
+.panah-kanan {
+    position: relative;
+    bottom: 260px;
+    left: 410px;
+}
+
+.panah-kiri {
+    position: relative;
+    bottom: 261px;
+    left: 1275px;
+}
+
+.ring-1 {
+    position: relative;
+    bottom: 40px;
+    left: 658px;
+}
+
+.ring-2 {
+    position: relative;
+    bottom: 40px;
+    left: 708px;
+}
+
+.ring-3 {
+    position: relative;
+    bottom: 40px;
+    left: 758px;
+}
+
+.ring-4 {
+    position: relative;
+    bottom: 40px;
+    left: 808px;
+}
+
+.ring-5 {
+    position: relative;
+    bottom: 40px;
+    left: 858px;
+}
+/* About Gallery Selesai*/
+
+/* Features */
+.features {
+    position: absolute;
+    width: 1441px;
+    height: 960px;
+    top: 1919px;
+    background-image: url(../assets/bg\ image\ 3.png);
+    background-size: cover;
+}
+
+.text-special {
+    margin-left: 800px;
+    margin-top: 170px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.sub-judul {
+    margin-left: 800px;
+    font-family: Arial;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.fitur {
+    margin-left: 835px;
+    margin-top: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.span {
+    position: relative;
+    bottom: 260px;
+    left: 838px;
+}
+
+.span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.ring-6 {
+    position: relative;
+    bottom: 234px;
+    right: 32px;
+    height: 15px;
+    width: 13px;
+}
+
+.garis {
+    position: relative;
+    bottom: 178px;
+    right: 92px;
+    height: 100px;
+}
+
+.ring-7 {
+    position: relative;
+    bottom: 123px;
+    right: 55px;
+    height: 15px;
+    width: 13px;
+}
+
+.ring-8 {
+    position: relative;
+    bottom: 68px;
+    right: 76px;
+    height: 15px;
+    width: 13px;
+}
+/* Features Selesai*/
+
+/* System Requirements */
+.requirements {
+    position: absolute;
+    width: 1441px;
+    height: 960px;
+    top: 2878px;
+    background-image: url(../assets/bg\ image\ 4.png);
+    background-size: cover;
+}
+
+.sub-judul2 {
+    margin-top: 145px;
+    margin-left: 567px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.req {
+    margin-top: 54px;
+    margin-left: 132px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.table {
+    position: absolute;
+    width: 573px;
+    height: 400px;
+    left: 120px;
+    top: 388px;
+}
+/* System Requirements Selesai*/
+
+/* Quotes */
+.quotes {
+    position: absolute;
+    height: 960px;
+    width: 1442px;
+    top: 959px;
+    left: 0px;
+    background-image: url(../assets/bg\ image\ 5.png);
+    background-size: cover;
+}
+
+.top-scores {
+    margin-top: 380px;
+    margin-left: 119px;
+}
+
+.scores {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.see-more {
+    margin-top: 30px;
+    margin-left: 13px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #1A1917;
+}
+
+.see-more {
+    position: absolute;
+    left: 8.12%;
+    right: 73.79%;
+    top: 52.45%;
+    bottom: 39.3%;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.card {
+    box-sizing: border-box;
+    position: absolute;
+    left: 60.26%;
+    right: 8.31%;
+    top: 16.58%;
+    bottom: 64.37%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.card-img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 13px;
+    top: 11px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.ellipse-1 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 22px;
+    top: 16px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.twitter-1 {
+    position: absolute;
+    left: 89%;
+    right: 10%;
+    top: 20%;
+    bottom: 79%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    height: 14px;
+    width: 18px;
+    border-radius: 0px;
+}
+
+.card-evan {
+    position: absolute;
+    top: 26px;
+    left: 109px;
+    color: #FFB548;
+}
+
+.hobi-1 {
+    position: absolute;
+    top: 48px;
+    left: 109px;
+}
+
+.bio-1 {
+    position: absolute;
+    top: 103px;
+    left: 17px;
+}
+
+.date-1 {
+    position: absolute;
+    top: 142px;
+    left: 17px;
+}
+
+.card2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50.12%;
+    right: 18.36%;
+    top: 38.76%;
+    bottom: 39.89%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.card-img2 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 13px;
+    top: 11px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 22px;
+    top: 16px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.twitter-2 {
+    position: absolute;
+    left: 89%;
+    right: 10%;
+    top: 20%;
+    bottom: 79%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    height: 14px;
+    width: 18px;
+    border-radius: 0px;
+}
+
+.card-jada {
+    position: absolute;
+    top: 26px;
+    left: 109px;
+    color: #FFB548;
+}
+
+.hobi-2 {
+    position: absolute;
+    top: 48px;
+    left: 109px;
+}
+
+.bio-2 {
+    position: absolute;
+    top: 103px;
+    left: 17px;
+}
+
+.date-2 {
+    position: absolute;
+    top: 165px;
+    left: 17px;
+}
+
+.card3 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 57.46%;
+    right: 11.02%;
+    top: 63.23%;
+    bottom: 15.41%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.card-img3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 13px;
+    top: 11px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.ellipse-3 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 22px;
+    top: 16px;
+    border-radius: 100%;
+    border: 10px;
+}
+
+.twitter-3 {
+    position: absolute;
+    left: 89%;
+    right: 10%;
+    top: 20%;
+    bottom: 79%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    height: 14px;
+    width: 18px;
+    border-radius: 0px;
+}
+
+.card-aeron {
+    position: absolute;
+    top: 26px;
+    left: 109px;
+    color: #FFB548;
+}
+
+.hobi-3 {
+    position: absolute;
+    top: 48px;
+    left: 109px;
+}
+
+.bio-3 {
+    position: absolute;
+    top: 103px;
+    left: 17px;
+}
+
+.date-3 {
+    position: absolute;
+    top: 165px;
+    left: 17px;
+}
+/* Quotes Selesai */
+
+/* Subscribe */
+.subscribe {
+    position: absolute;
+    width: 1441px;
+    height: 960px;
+    left: 0px;
+    top: 1919px;
+    background: #080A0B;
+}
+
+.sub-judul3 {
+    position: absolute;
+    left: 46.87%;
+    right: 34.99%;
+    top: 14.17%;
+    bottom: 82.94%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.news {
+    position: absolute;
+    left: 673px;
+    top: 245px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.p-2 {
+    position: absolute;
+    left: 670px;
+    top: 379px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.border-email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 366.92px;
+    height: 60px;
+    left: 675.92px;
+    top: 510.7px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+}
+
+.your-email {
+    position: absolute;
+    top: 6px;
+    left: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 4px;
+}
+
+.email {
+    position: absolute;
+    top: 27px;
+    left: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFB548;
+}
+
+.subs {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A1917;
+}
+
+.subs {
+    position: absolute;
+    left: 73.51%;
+    right: 8.46%;
+    top: 53.19%;
+    bottom: 40.54%;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.skull {
+    position: absolute;
+    width: 412.35px;
+    height: 655.6px;
+    top: 72px;
+    left: 193px;
+}
+/* Subscribe */
+
+/* Footer */
+.footer {
+    position: absolute;
+    width: 1441px;
+    height: 233px;
+    left: 0px;
+    top: 2646px;
+}
+
+.item{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.main {
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 35px;
+}
+
+.main {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 80px;
+}
+
+.about {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.gf {
+    position: absolute;
+    width: 154px;
+    height: 20px;
+    left: 130px;
+}
+
+.gf {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.sr {
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 180px;
+    
+}
+
+.sr {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.quot {
+    position: absolute;
+    width: 64px;
+    height: 21px;
+    left: 220px;
+}
+
+.quot {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.fb {
+    position: relative;
+    left: 280px;
+}
+
+.twitter-4 {
+    position: relative;
+    left: 320px;
+}
+
+.yt {
+    position: relative;
+    left: 365px;
+}
+
+.cursor {
+    position: relative;
+    bottom: -12px;
+    left: 353px;
+}
+
+.twitch {
+    position: relative;
+    left: 405px;
+}
+
+.garis-2 {
+    position: absolute;
+    width: 0px;
+    height: 1200px;
+    left: 730px;
+    top: -445.19px;
+
+    opacity: 0.5;
+    border: 0.873968px solid #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.item-2 {
+    display: flex;
+    position: relative;
+    top: 90px;
+}
+
+.p-4 {
+    position: relative;
+    top: 65px;
+    left: -57px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.p-5 {
+    position: relative;
+    top: -39px;
+    left: 102px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+/* Footer Selesai*/
+
+

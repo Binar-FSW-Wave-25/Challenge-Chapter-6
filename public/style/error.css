@@ -1,0 +1,20 @@
+.error {
+    margin-top: 10%;
+    background-image: url(../assets/antoine-rault-IhWRrZx4-kk-unsplash.jpg);
+    background-size: cover;
+}
+
+.header {
+    color: white;
+}
+
+.text {
+    color: white;
+}
+
+.back {
+    margin-left: 480px;
+}
+
+
+
