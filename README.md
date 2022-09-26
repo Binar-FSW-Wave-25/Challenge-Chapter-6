@@ -9,3 +9,11 @@
 - [ ] Menyediakan endpoint dengan tipe data JSON dari data statis
 - [ ] Membuat dan melakukan import export module
 - [ ] Push ke git untuk di-review
+
+Regiter User :
+npx sequelize-cli model:generate --name RegisterUser --attributes userName:string,password:string,role:string
+Biodata User:
+npx sequelize-cli model:generate --name BiodataUser --attributes name:string,gender:string,age:integer,city:string
+History User:
+npx sequelize-cli model:generate --name HistoryUser --attributes hasil:string,jumlah:integer
+
