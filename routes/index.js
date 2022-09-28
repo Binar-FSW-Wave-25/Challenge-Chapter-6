@@ -5,7 +5,7 @@ const registerRoutes = require("./registerRoutes")
 
 
 routes.use("/login", loginRoutes)
-routes.use("/register", registerRo  utes)
+routes.use("/register", registerRoutes)
 
 
 
