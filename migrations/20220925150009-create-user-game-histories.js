@@ -17,17 +17,6 @@ module.exports = {
       result: {
         type: Sequelize.STRING
       },
-      UserGameId:{
-        type: Sequelize.INTEGER,
-        references:{
-          model:{
-            tableName:"UserGames"
-          },
-          key:'id',
-          onDelete: 'CASCADE',
-          onUpdate: 'CASCADE'
-        }
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

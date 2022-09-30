@@ -18,7 +18,6 @@ module.exports = (sequelize, DataTypes) => {
     user: DataTypes.STRING,
     com: DataTypes.STRING,
     result: DataTypes.STRING,
-    UserGameId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'UserGameHistories',

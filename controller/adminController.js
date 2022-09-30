@@ -194,8 +194,6 @@ module.exports = {
                 return res.redirect('/login')
             }
             const id = req.session.user
-            UserGameHistories.destroy({where:{UserGameId:id.id}})
-            UserGameBiodata.destroy({where:{UserGameId:id.id}})
             UserGames.destroy({where:{id:id.id}})
             req.session.destroy()
             res.redirect("/login")
